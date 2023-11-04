@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Color de fondo para la cabecera */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.seccion-principal {
+    background-image: url('../food1.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Ajusta la altura de la sección a 200 píxeles */
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.columna-imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 10%; /* Margen izquierdo para desplazar las imágenes hacia la izquierda */
+}
+
+.imagen-con-texto {
+    display: flex;
+    align-items: center;
+
+}
+
+.columna-imagenes img {
+    max-width: 100%;
+    height: auto;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+
+.imagen-con-texto {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.imagen-con-texto img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.texto {
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.texto p {
+   
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: 0;
+}
+
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color de texto del footer */
+    text-align: center; /* Centro del texto */
+    padding: 10px; /* Espacio alrededor del texto */
+    font-size: 14px; /* Tamaño de fuente del footer */
+    font-family: 'Arial', sans-serif; /* Fuente personalizada del footer */
+    font-weight: bold; /* Texto en negrita en el footer */
+}
+
+.footer-text {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    font-size: 14px; /* Tamaño de fuente del footer */
+    font-family: 'Arial', sans-serif; /* Fuente personalizada del footer */
+    font-weight: bold; /* Texto en negrita en el footer */
+}
+
+
+
+
+
+
+
+
+
+
+
+
